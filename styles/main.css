@@ -1,0 +1,55 @@
+body {
+  background-color: #EDEEEF; }
+  body nav {
+    background-color: #406999; }
+    body nav .dropdownBtn {
+      margin-left: 10em;
+      background-color: #406999;
+      border: none;
+      transition: background-color 500ms; }
+      body nav .dropdownBtn .fa-plus-circle {
+        padding: 0.25em; }
+    body nav .dropdownBtn:hover {
+      background-color: #87CEFA; }
+  body .dropdownMenu {
+    background-color: #fff;
+    padding: 3em 15em;
+    display: none;
+    overflow: hidden; }
+    body .dropdownMenu .urlInput {
+      height: 2.5em;
+      width: 100%;
+      margin: 0 auto 1em auto; }
+    body .dropdownMenu .captionInput {
+      height: 4em;
+      width: 100%;
+      margin: 0 auto 1em auto; }
+    body .dropdownMenu button {
+      float: right; }
+    body .dropdownMenu .addImageBtn {
+      background-color: #17AA56;
+      color: #fff;
+      padding: 1.5em;
+      border-radius: 0.25em;
+      border: none;
+      border-bottom: 4px solid #167016;
+      margin-left: 0.25em;
+      transition: background-color 500ms; }
+    body .dropdownMenu .addImageBtn:hover {
+      background-color: #167016; }
+    body .dropdownMenu .cancelBtn {
+      background-color: #B6B6B6;
+      color: #fff;
+      padding: 1.5em;
+      border-radius: 0.25em;
+      border: none;
+      border-bottom: 4px solid #777;
+      transition: background-color 500ms; }
+    body .dropdownMenu .cancelBtn:hover {
+      background-color: #777; }
+  body .imageContent {
+    background-color: #E0E1E2;
+    margin: 0 10em;
+    padding: 3em; }
+
+/*# sourceMappingURL=main.css.map */
