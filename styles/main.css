@@ -19,11 +19,11 @@ body {
     body .dropdownMenu .urlInput {
       height: 2.5em;
       width: 100%;
-      margin: 0 auto 1em auto; }
+      margin: 0 auto; }
     body .dropdownMenu .captionInput {
       height: 4em;
       width: 100%;
-      margin: 0 auto 1em auto; }
+      margin: 1em auto 0em auto; }
     body .dropdownMenu button {
       float: right; }
     body .dropdownMenu .addImageBtn {
@@ -47,6 +47,8 @@ body {
       transition: background-color 500ms; }
     body .dropdownMenu .cancelBtn:hover {
       background-color: #777; }
+    body .dropdownMenu .errorMessage {
+      color: red; }
   body .imageContent {
     background-color: #E0E1E2;
     margin: 0 10em;
